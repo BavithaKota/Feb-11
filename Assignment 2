@@ -1,0 +1,35 @@
+n=input('student name:')
+num=int(input('student_no:'))
+s1=int(input('maths marks:'))
+s2=int(input('physics marks:'))
+s3=int(input('computer marks:'))
+s4=int(input('hindi marks:'))
+s5=int(input('english marks:'))
+s6=int(input('skill course marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg>=91:
+    print('grade:o')
+elif avg>=81:
+    print('grade:A')
+elif avg>=71:
+    print('grade:B')
+elif avg>=61:
+    print('grade:c')
+elif avg>=51:
+    print('grade:D')
+elif avg>=40:
+    print('pass')
+else:
+    print('fail')
+
+output
+student name:priya
+student_no:34
+maths marks:69
+physics marks:89
+computer marks:92
+hindi marks:56
+english marks:78
+skill course marks:90
+grade:B
